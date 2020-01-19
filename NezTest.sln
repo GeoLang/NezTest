@@ -1,0 +1,58 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NezTest.Desktop", "NezTest\NezTest.Desktop.csproj", "{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nez", "..\Nez\Nez.Portable\Nez.csproj", "{FA09E970-2213-4A9B-91DC-FA627FB11E91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA09E970-2213-4A9B-91DC-FA627FB11E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA09E970-2213-4A9B-91DC-FA627FB11E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA09E970-2213-4A9B-91DC-FA627FB11E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA09E970-2213-4A9B-91DC-FA627FB11E91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-mgcb
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = application/manifest+xml
+		$0.XmlFormattingPolicy = $7
+		$7.inheritsSet = null
+		$7.scope = application/manifest+xml
+		$0.TextStylePolicy = $8
+		$8.inheritsSet = null
+		$8.scope = application/xml
+		$0.XmlFormattingPolicy = $9
+		$9.scope = application/xml
+		$0.TextStylePolicy = $10
+		$10.inheritsSet = null
+		$10.scope = application/config+xml
+		$0.XmlFormattingPolicy = $11
+		$11.inheritsSet = null
+		$11.scope = application/config+xml
+		$0.StandardHeader = $12
+	EndGlobalSection
+EndGlobal
