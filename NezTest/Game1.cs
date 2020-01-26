@@ -1,6 +1,4 @@
 ﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 using Nez;
 
 namespace NezTest.Desktop
@@ -11,11 +9,17 @@ namespace NezTest.Desktop
     public class Game1 : Core
     {
 
-        public Game1()
+        public Game1() : base()
+        {}
+
+        protected override void Initialize()
         {
-            this.Window.AllowUserResizing = true;
-            // Event obj = new Event();
+            base.Initialize();
+            // var scene = Scene.create(Color.CornflowerBlue);
+            var scene = Scene.CreateWithDefaultRenderer(Color.CornflowerBlue);
             
+
+            Core.Scene = scene;
         }
     }
 }

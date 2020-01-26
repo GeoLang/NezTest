@@ -1,2 +1,9 @@
 NezTest/bin*
 NezTest/bin
+.idea*
+.idea
+.vs*
+.vs
+packages*
+packages
+/NezTest/Properties/obj/
