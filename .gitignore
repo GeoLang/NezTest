@@ -4,8 +4,8 @@ NezTest/bin
 .idea
 .vs*
 .vs
-packages*
-packages
+packages/*
+packages/
 /NezTest/Properties/obj/
 /NezTest/obj*
 /NezTest/obj

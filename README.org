@@ -1,0 +1,7 @@
+#+Title: NezTest
+#+Author: George Langroudi
+#+EMAIL: George.Langroudi@outlook.com
+
+* Before building
+
+Before building, MonoGame.Framework.DesktopGL must be added to the project using nuget.
