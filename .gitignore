@@ -7,3 +7,6 @@ NezTest/bin
 packages*
 packages
 /NezTest/Properties/obj/
+/NezTest/obj*
+/NezTest/obj
+/NezTest/Content/nez/*
